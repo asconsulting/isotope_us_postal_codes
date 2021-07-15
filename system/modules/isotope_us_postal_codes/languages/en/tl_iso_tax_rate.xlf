@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/cs02/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="system/modules/isotope_us_postal_codes/languages/en/tl_iso_tax_rate.xlf" source-language="en">
+    <body>
+      <trans-unit id="tl_iso_tax_rate.postalCodes.1">
+        <source>Limit the tax rate to postal codes. You can enter a comma separated list and ranges (~ tilde) (e.g. 1234,1235,1236~1239,1100~1200).</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

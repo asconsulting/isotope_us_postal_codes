@@ -1,0 +1,38 @@
+{
+    "name":"asconsulting/isotope_us_postal_codes",
+    "description":"A workaround for Isotope eCommerce to properly parse US 5+4 formatted postal codes.",
+    "homepage": "https://andrewstevens.consulting",
+    "keywords":["contao", "isotope", "zip", "postal", "5+4"],
+    "type":"contao-module",
+    "license":"LGPL-3.0-or-later",
+    "authors":[
+        {
+            "name":"Andrew Stevens",
+            "homepage":"https://andrewstevens.consulting"
+        }
+    ],
+    "require":{
+        "php": ">=7.2",
+        "contao/core-bundle": ">=4.9",
+		"isotope/isotope-core": ">=2.7"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Isotope\\": [
+                "system/modules/isotope_us_postal_codes/library/Isotope"
+            ]
+        },
+		"exclude-from-classmap": ["system/modules/isotope/library/Isotope/Frontend.php"]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "system/modules/isotope_us_postal_codes": "system/modules/isotope_us_postal_codes"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

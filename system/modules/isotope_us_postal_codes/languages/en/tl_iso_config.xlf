@@ -3,10 +3,10 @@
   <file datatype="plaintext" original="system/modules/isotope_us_postal_codes/languages/en/tl_iso_config.xlf" source-language="en">
     <body>
       <trans-unit id="tl_iso_config.useLegacyPostalRanges.0">
-        <source>Use Legacy Postal Codes</source>
+        <source>Use Legacy Postal Code Ranges</source>
       </trans-unit>
       <trans-unit id="tl_iso_config.useLegacyPostalRanges.1">
-        <source>Use legacy postal code logic. If disabled a tilde(~) is used instead of a dash(-) to accomodate US 5+4 zip codes.</source>
+        <source>Use legacy postal code range logic. If disabled a tilde(~) is used instead of a dash(-) to accomodate US 5+4 zip codes.</source>
       </trans-unit>
     </body>
   </file>

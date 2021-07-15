@@ -402,11 +402,6 @@ class Frontend extends \Frontend
     {
         $arrCodes = array();
 		$objConfig = Isotope::getConfig();
-		if ($objConfig->useLegacyPostalRanges) {
-			die('Using Legacy Postal Ranges');
-		} else {
-			die('US Postal Code Safe - 5+4');	
-		}
 		
         foreach (trimsplit(',', $strPostalCodes) as $strCode) {
 			if ($objConfig->useLegacyPostalRanges) {

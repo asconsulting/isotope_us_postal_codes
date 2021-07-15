@@ -25,6 +25,7 @@ $GLOBALS['TL_DCA']['tl_iso_config']['fields']['useLegacyPostalRanges'] = array
 	'label'                 => &$GLOBALS['TL_LANG']['tl_iso_config']['useLegacyPostalRanges'],
 	'exclude'               => true,
 	'inputType'             => 'checkbox',
+	'default'				=> '1',
 	'eval'                  => array('tl_class'=>'w50'),
-	'sql'                   => "char(1) NOT NULL default ''",
+	'sql'                   => "char(1) NOT NULL default '1'",
 );
